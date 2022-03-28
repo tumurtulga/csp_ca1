@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-<html lang="en_US"
-<html>
+<html lang="en_US">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="author" content="Tumurtulga">
-        <meta name="description" content="A copy of a Wikipedia article"
+
+        <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/dist/style.css">
         <title>Wikipedia Article</title>
-        <link rel="stylesheet" href="style.css"
+        <style>
+            .attribution { font-size: 11px; text-align: center;}
+            .attribution a { color: hsl(228, 45%, 44%);}
+        </style>
     </head>
             <body>
-                <div class="menu-btn">
-                    <div class="menu-btn_burger">
-                        <a href="#1">Paragraph 1</a>
-                        <a href="#2">Paragraph 2</a>
-                        <a href="#3">Paragraph 3</a>
-                    </div>
-                </div>
-                <script src="main.js"></script>
-                <header>
-                    <nav>
-                        <ul>
-                            <li><a href="#1">Paragraph 1</a></li>
-                            <li><a href="#2">Paragraph 2</a></li>
-                            <li><a href="#3">Paragraph 3</a></li>
-                        </ul>
+                <header class="header">
+                    <nav class="flex flex-jc-sb flex-ai-c">
+                        <a href="/" class="header_logo">
+                            <img src="images/logo.svg" alt="Wikilogo"/>
+                        </a>
+                        <a href="#" class="header_menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+
+                        <div class="header_links">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Contact</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Careers</a>
+                        </div>
+
+                        <a href="#" class="button">Request Invite</button>
                     </nav>
                 </header>
-                
             </body>
     </head>
 </html>
