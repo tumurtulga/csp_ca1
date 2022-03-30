@@ -1,6 +1,12 @@
 * {
     font-family: 'Public Sans', sans-serif;
 }
+body {
+    background-image: url(images/8k.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .wrapper {
     width: 100%;
 }
@@ -16,8 +22,10 @@
 .para1-area,
 .para2-area,
 .para3-area,
+.para4-area,
 .table-area {
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 20px;
 }
 .text-content h2 {
     text-transform: uppercase;
@@ -31,8 +39,8 @@
 .text-content h3 {
     text-transform: uppercase;
     text-align: center;
-    padding-top: 10%;
-    font-size: 65px;
+    padding-top: 20px;
+    font-size: 34px;
     margin: 0;
     color: #fff;
     text-shadow: 0 5px 10px #000;
@@ -40,17 +48,60 @@
 .text-content p {
     width: 80%;
     margin: auto;
-    text-align: center;
-    padding-top: 5%;
+    text-align: justify;
+    padding-top: 20px;
     font-size: 14px;
     color: #fff;
 }
+#ca1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* -----TABLE-----*/
+#table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    color: #fff;box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+#table thead tr {
+    background-color: #009879;
+    color: #7e6a6a;
+    text-align: left;
+}
+#table th,
+#styled-table td {
+    padding: 12px 15px;
+}
+#table tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+
+#table tbody tr:nth-of-type(even) {
+    background-color: #8d657c;
+}
+
+#table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+#table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* -----IMAGES-----*/
 .img {
     width: 75%;
     margin: auto;
     text-align: center;
     display: flex;
-    padding: 50px;
+    padding: 20px;
     justify-content: space-between;
 }
 .img-col {
@@ -62,6 +113,7 @@
 }
 .img-col img {
     width: 100%;
+    height: 100%;
     display: block;
 }
 .layer {
@@ -80,7 +132,7 @@
     width: 100%;
     font-weight: 500;
     color: #fff;
-    font-size: 10px;
+    font-size: 15px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -91,6 +143,8 @@
     bottom: 49%;
     opacity: 1;
 }
+
+/* -----SIDEBAR-----*/
 .sidebar {
     height: 100%;
     width: 250px;
@@ -136,17 +190,22 @@
     margin-left: 230px;
     padding: 0 10px;
 }
+
+/* -----PARAGRAPH LAYER COLOR-----*/
 #para1 {
-    background: darkkhaki;
+    background-color: rgba(255, 0, 0, 0.1);
 }
 #para2 {
-    background: darkcyan
+    background-color: rgba(55, 0, 255, 0.1);
 }
 #para3 {
-    background: darkblue
+    background-color: rgba(0, 255, 55, 0.1);
+}
+#para4 {
+    background-color: rgba(208, 255, 0, 0.1);
 }
 #table {
-    background: darkgrey
+    background-color: rgba(255, 0, 140, 0.1);
 }
 
 
