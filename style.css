@@ -26,7 +26,8 @@ body {
 .para2-area,
 .para3-area,
 .para4-area,
-.table-area {
+.table-area,
+.ref-area {
     height: 100%;
     padding-bottom: 20px;
 }
@@ -210,4 +211,7 @@ body {
 }
 #table {
     background-color: rgba(255, 0, 140, 0.1);
+}
+#reference {
+    background-color: rgba(0, 238, 255, 0.1);
 }
