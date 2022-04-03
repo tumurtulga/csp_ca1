@@ -57,7 +57,16 @@ body {
     font-size: 14px;
     color: #fff;
 }
-
+a:link {
+    color: rgb(172, 203, 250);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
 #ca1 {
     width: 80%;
     margin: auto;
@@ -67,11 +76,11 @@ body {
     color: #fff;
 }
 
+
 /* -----TABLE-----*/
 #table {
-    border-collapse: collapse;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     font-size: 14px;
     color: #fff;box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
@@ -157,7 +166,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #ED1C5B;
+    background-color: #7ca7f2;
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -166,7 +175,7 @@ body {
     font-size: 20px;
     text-transform: uppercase;
     color: #ffffff;
-    background: #E20E4E;
+    background: #7788f5;
     padding: 20px;
     font-weight: bold;
 }
@@ -182,7 +191,7 @@ body {
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #f9008d;
     display: block;
     margin: auto;
     opacity: 50%;
@@ -201,7 +210,7 @@ body {
     background-color: rgba(255, 0, 0, 0.1);
 }
 #para2 {
-    background-color: rgba(55, 0, 255, 0.1);
+    background-color: rgba(177, 247, 1, 0.1);
 }
 #para3 {
     background-color: rgba(0, 255, 55, 0.1);
